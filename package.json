@@ -1,0 +1,27 @@
+{
+  "name": "historical-low-steam-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cron": "^1.8.2",
+    "http": "^0.0.1-security",
+    "jsdom": "^16.4.0",
+    "steamapi": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kobayuku/webscraper-gg-deals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kobayuku/webscraper-gg-deals/issues"
+  },
+  "homepage": "https://github.com/kobayuku/webscraper-gg-deals#readme"
+}
