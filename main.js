@@ -10,7 +10,7 @@ const requestListener = function (req, res) {
 }
 
 const server = http.createServer(requestListener);
-server.listen(8080);
+server.listen(process.env.PORT);
 
 const steam = new SteamAPI('BEFA4070369049AA5FD499DC7D51D868');
 const fs = require('fs');
