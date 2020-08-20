@@ -106,5 +106,5 @@ class Game {
     }
 }
 
-const job = new cron('0 *\20 * * * *', getDeals);
+const job = new cron('* 10,30,50 * * * *', getDeals);
 job.start();
