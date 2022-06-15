@@ -12,7 +12,7 @@ const requestListener = function (req, res) {
 const server = http.createServer(requestListener);
 server.listen(process.env.PORT);
 
-const steam = new SteamAPI('BEFA4070369049AA5FD499DC7D51D868');
+const steam = new SteamAPI('');
 const fs = require('fs');
 
 if (!fs.existsSync("deals.json")) fs.writeFile("deals.json", "{}", () => {});
@@ -84,7 +84,7 @@ const getDeals = async () => {
         };
     }
     if (gamesEmbeds.length) {
-        const WH = "https://discordapp.com/api/webhooks/746080172603605012/n4eTp71gRtt5M7ZDdGbgDVpEy8uCMX1fEdQPjyJPJjFVb5fCmpRdDZVo3aYzSMfOYTKS";
+        const WH = "";
         await axios.post(WH, {
             embeds: gamesEmbeds
         });
